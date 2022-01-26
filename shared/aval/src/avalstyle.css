@@ -1,0 +1,23 @@
+
+
+.rating-container .empty-stars {
+  color: #aaa;
+}
+.rating-rtl .filled-stars {
+  left: auto;
+  right: 0;
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  transition: none;
+}
+.rating-container .filled-stars {
+  -webkit-text-stroke: 1 px #777;
+  color: #fde16d;
+  left: 0;
+  margin: auto;
+  overflow: hidden;
+  position: absolute;
+  text-shadow: 1px 1px #999;
+  top: 0;
+  white-space: nowrap;
+}
